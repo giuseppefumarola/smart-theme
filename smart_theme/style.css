@@ -1,0 +1,80 @@
+/*
+Theme Name: Smart Theme
+Theme URI: https://localhost/wordpress/
+Author: Giuseppe
+Author URI: https://localhost/wordpress/
+Version: 1.0
+Description: il primo semplice tema per wordpress
+Theme domain: smarttheme
+*/
+body{
+  background-color: #ddd;
+  font-family: Montserrat, sans-serif;
+}
+
+h3{color: #3f51b5;}
+
+.img-post img{
+  width: 100%;
+  height: auto;
+}
+
+.menu{
+  background-color: #203563;
+  color: #fff;
+  padding: 5px;
+}
+
+.menu li{
+  list-style: none;
+   float: left;
+   padding-right: 20px;
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  }
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.content{
+  float: left;
+  width: 60%;
+}
+
+.widget{
+  float: right;
+  width: 40%;
+}
+
+.clear{
+  clear: both;
+}
+
+.main-sidebar{
+border: 1px #203563 solid;
+padding: 10px;
+margin: 15px 0;
+}
+
+.main-sidebar li{
+  list-style: none;
+  line-height: 30px;
+}
+
+.main-sidebar a{
+  text-decoration: none;
+}
+
+
+footer{
+  background-color: #203563;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
